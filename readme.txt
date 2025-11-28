@@ -14,7 +14,7 @@ To run this project correctly:
         Modules to be loaded: anaconda3 cuda
 
 2. Dont worry about Conda environment, Run First cell of spectrogram_cuda.ipynb to set up everything needed for execution. 
-    * After first cell has finished execution, click button top right of Jupityr Session named ex: Python (ipykernel), and change it to Python (spectrogram-cuda). This ensures your Notebook will execute within the environment. 
+    * After first cell has finished execution, click button top right of Jupityr Session named ex: Python (ipykernel), and change it to Python (spectrogram-cuda). This ensures your Notebook will execute within the correct environment. 
     
 3. Then run Second cell to install correct CuPy runtime, ignore warning about multiple installations of Cuda
 
